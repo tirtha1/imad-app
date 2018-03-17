@@ -13,12 +13,12 @@ app.get('/article1', function (req, res) {
   res.send('article 1 req and handeled here');
 });
 
-app.get('/article1', function (req, res) {
-  res.send('article 1 req and handeled here');
+app.get('/article2', function (req, res) {
+  res.send('article 2 req and handeled here');
 });
 
-app.get('/article1', function (req, res) {
-  res.send('article 1 req and handeled here');
+app.get('/article3', function (req, res) {
+  res.send('article 3 req and handeled here');
 });
 
 app.get('/ui/style.css', function (req, res) {
